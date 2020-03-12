@@ -405,7 +405,15 @@ Begin VB.Form Form1
       Width           =   2655
    End
    Begin VB.Label Label1 
-      Caption         =   "Label1"
+      BeginProperty Font 
+         Name            =   "Segoe UI Semibold"
+         Size            =   15.75
+         Charset         =   0
+         Weight          =   600
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   1575
       Left            =   120
       TabIndex        =   0
@@ -418,3 +426,46 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+Private Sub Command28_Click()
+Label1.Caption = "0"
+End Sub
+
+Private Sub Command33_Click()
+Label1.Caption = "1"
+End Sub
+
+Private Sub Command34_Click()
+Label1.Caption = "2"
+End Sub
+
+Private Sub Command35_Click()
+Label1.Caption = "3"
+End Sub
+
+Private Sub Command38_Click()
+Label1.Caption = "4"
+End Sub
+
+Private Sub Command39_Click()
+Label1.Caption = "5"
+End Sub
+
+Private Sub Command40_Click()
+Label1.Caption = "6"
+End Sub
+
+Private Sub Command43_Click()
+Label1.Caption = "7"
+End Sub
+
+Private Sub Command44_Click()
+Label1.Caption = "8"
+End Sub
+
+Private Sub Command45_Click()
+Label1.Caption = "9"
+End Sub
+
+Private Sub Command46_Click()
+Label1.Caption = ""
+End Sub
